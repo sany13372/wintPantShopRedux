@@ -1,0 +1,1 @@
+export const countryreg = 'Россия' || 'РФ'

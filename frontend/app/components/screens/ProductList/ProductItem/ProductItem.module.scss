@@ -1,0 +1,29 @@
+@media screen and (max-width: 767px) {
+   .card:nth-child(even) {
+      display: none;
+   }
+}
+
+.card_grid:nth-child(1) {
+   grid-area: first;
+}
+
+.card_grid:nth-child(2) {
+   grid-area: second;
+}
+
+.card_grid:nth-child(3) {
+   grid-area: third;
+}
+
+.card_grid:nth-child(4) {
+   grid-area: four;
+}
+
+.card_grid:nth-child(5) {
+   grid-area: five;
+}
+
+.card_grid:nth-child(6) {
+   grid-area: six;
+}

@@ -1,0 +1,30 @@
+.products__grid {
+   display: grid;
+   grid-template-areas: 
+      'first first second third'
+      'first first four four'
+      'five six four four'
+   ;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   gap: 20px;
+}
+
+@media (max-width: 1023px) {
+
+}
+
+@media (max-width: 767px) {
+   .products__grid {
+   display: grid;
+   grid-template-areas: 
+      'first first'
+      'first first'
+      'second third'
+      'four four'
+      'four four'
+      'five six'
+   ;
+   grid-template-columns: 1fr 1fr;
+   gap: 10px;
+}
+}

@@ -1,0 +1,27 @@
+.input{
+    @apply bg-[#FFFFFF] text-[#909090] mb-5;
+    width: 360px;
+    height: 60px;
+    padding: 0px 0px 0px 15px;
+    -moz-appearance: textfield;
+	-webkit-appearance: textfield;
+	appearance: textfield;
+    @media (max-width: 1200px){
+        max-width: 200px;
+    }
+    @media (max-width: 760px){
+        max-width: 300px;
+    }
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+	display: none;
+}
+
+.error {
+    @apply text-red-600 ;
+    margin: -15px 0px 0px 0px;
+    top: 0;
+    left: 0;
+}

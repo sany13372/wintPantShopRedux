@@ -1,0 +1,8 @@
+.block-line{
+    justify-content: space-evenly;
+
+    @media (max-width: 500px){
+        flex:  0 0;
+        justify-content: flex-start;
+    }
+}
